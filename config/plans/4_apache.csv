@@ -1,0 +1,5 @@
+"base","mode","module","version","dep_one","dep_one_version","dep_two","dep_two_version"
+"perl:5.38","vary-one","Egg::Plugin::Filter::Plugin::Japanese","3.14","HTML::Mason","0.1","",""
+"perl:5.38","vary-two","Egg::Plugin::Filter::Plugin::Japanese","3.14","HTML::Mason","0.1","URI","5.35"
+"perl:5.38","vary-two","Egg::Plugin::Filter::Plugin::Japanese","3.14","HTML::Mason","0.1","URI","0.01"
+"perl:5.38","vary-two","Egg::Plugin::Filter::Plugin::Japanese","3.14","Class::Data::Inheritable","0.10","HTML::Mason","0.1"

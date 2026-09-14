@@ -1,0 +1,10 @@
+
+==============================================================================
+PASS results                 : 20
+Non-PASS results reviewed    : 0
+Missing log files            : 0
+Empty log files              : 0
+Terminal diagnostics selected: 0
+Other diagnostics selected   : 0
+No diagnostic found          : 0
+==============================================================================

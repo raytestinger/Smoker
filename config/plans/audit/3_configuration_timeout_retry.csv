@@ -1,0 +1,4 @@
+base,mode,module,version,dep_one,dep_one_version,dep_two,dep_two_version
+perl:5.42,vary-one,Contract::Declare,v1.0.0,Wx::Perl::ListCtrl,0.03,,
+perl:5.36,vary-one,Contract::Declare,v1.0.0,Wx::Scintilla,0.39,,
+perl:5.42,vary-one,Contract::Declare,v1.0.0,Wx::Scintilla,0.39,,

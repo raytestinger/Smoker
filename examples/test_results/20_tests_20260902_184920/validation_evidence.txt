@@ -1,0 +1,169 @@
+SMOKER BATCH VALIDATION EVIDENCE
+================================================================================
+
+Batch directory: /home/ray/Smoker/development/test_results/20_tests_20260902_184920
+Generated report: /home/ray/Smoker/development/test_results/20_tests_20260902_184920/validation_evidence.txt
+Read-only audit of the batch; only this report file was written.
+
+Original plan tests         : 20
+Unique tests                : 20
+Duplicate tests skipped     : 0
+
+SMOKER PERFORMANCE
+--------------------------------------------------------------------------------
+
+Expected execution paths:
+  Satisfied:   20
+  Unsatisfied: 0
+
+Required result files:
+  Complete:    20
+  Incomplete:  0
+
+Result classification:
+  Classified:   20
+  Unclassified: 0
+
+FILES AND DIRECTORIES EXAMINED
+--------------------------------------------------------------------------------
+Plan CSV: /home/ray/Smoker/development/test_results/20_tests_20260902_184920/original_plan.csv
+Summary CSV: /home/ray/Smoker/development/test_results/20_tests_20260902_184920/summary.csv
+Classification audit: /home/ray/Smoker/development/test_results/20_tests_20260902_184920/result_classification_audit.txt
+Runs directory: /home/ray/Smoker/development/test_results/20_tests_20260902_184920/runs
+Skipped duplicate CSV: /home/ray/Smoker/development/test_results/20_tests_20260902_184920/skipped_dup.csv
+Remaining/unique CSV: /home/ray/Smoker/development/test_results/20_tests_20260902_184920/plan_deduplicated.csv
+
+EXACT COUNTS
+--------------------------------------------------------------------------------
+original_plan_rows: 20
+deduplicated_plan_rows: 20
+computed_unique_rows: 20
+computed_removed_rows: 0
+summary_rows: 20
+run_directories: 20
+rc_code_files: 20
+result_meta_files: 20
+execution_trail_audit_files: 20
+skipped_dup.csv data rows: 0
+
+EXPECTED PATH VERIFICATION
+--------------------------------------------------------------------------------
+Expected execution path:
+  one deduplicated plan row -> one run directory -> one rc.code -> one result.meta -> one execution_trail.audit -> one summary row
+Execution count equality: PASS
+Execution relationship validation: PASS
+Expected execution path result: PASS
+Classification evidence detail: classification audit file present but producer/audit verdicts are not trusted by batch validation
+
+Expected deduplication path:
+  original plan rows = deduplicated plan rows + removed duplicate rows
+Original plan rows: 20
+Recomputed unique rows: 20
+Recomputed removed duplicate rows: 0
+Accounting result: PASS
+Deduplicated CSV matches recomputation: PASS
+skipped_dup.csv matches recomputation: PASS
+Expected deduplication path result: PASS
+Summary rows with missing run directories: 0
+Summary rows with unresolved/blank run directories: 0
+Run directories not represented in summary.csv: 0
+Run directories represented more than once: 0
+Extra complete result sets beyond expected executions: 0
+Summary run-directory references repeated: 0
+
+DEDUPLICATION VERIFICATION
+--------------------------------------------------------------------------------
+summary.csv exact duplicate groups: 0
+summary.csv extra duplicate rows: 0
+skipped_dup.csv data rows: 0
+remaining/unique CSV: /home/ray/Smoker/development/test_results/20_tests_20260902_184920/plan_deduplicated.csv
+remaining/unique CSV exact duplicate groups: 0
+remaining/unique CSV extra duplicate rows: 0
+
+STATUS AND RETURN-CODE ANALYSIS
+--------------------------------------------------------------------------------
+Status counts:
+        20  PASS
+Return-code counts:
+        20  0
+Status/return-code combinations:
+        20  PASS | rc=0
+
+INTEGRITY AND COLLISION CHECKS
+--------------------------------------------------------------------------------
+Run directories with rc.code/result.meta/execution-trail quality issues: 0
+rc.code vs result.meta return-code mismatches: 0
+summary.csv vs rc.code return-code mismatches: 0
+summary.csv vs result.meta status mismatches: 0
+summary.csv vs result.meta return-code mismatches: 0
+summary.csv status/return-code inconsistencies: 0
+result.meta status/return-code inconsistencies: 0
+Duplicate run-directory basenames: 0
+Repeated logical test definitions in summary.csv: 0
+
+TIMING ANALYSIS
+--------------------------------------------------------------------------------
+Elapsed-time column: elapsed_s
+Valid timing rows: 20
+Minimum seconds: 1.816
+Maximum seconds: 38.830
+Mean seconds: 20.536
+Median seconds: 23.328
+P90 seconds: 36.373
+P95 seconds: 37.697
+P99 seconds: 38.604
+Unusually slow threshold seconds: 89.371
+Unusually slow rows listed: 0
+Invalid elapsed-time rows: 0
+
+FAILURE-PATTERN ANALYSIS
+--------------------------------------------------------------------------------
+Rows classified for failure analysis: 0
+Failures by module:
+  <none>
+Failures by version:
+  <none>
+Failures by dep_one:
+  <none>
+Failures by dep_two:
+  <none>
+Failures by base:
+  <none>
+Failures by mode:
+  <none>
+Failures by status:
+  <none>
+Failures by rc:
+  <none>
+Failures by first dependency and version:
+  <none>
+Failures by second dependency and version:
+  <none>
+
+Interpretation boundary:
+  This evidence file identifies structural/framework defects separately from non-PASS CPAN/module outcomes.
+  It does not infer that every non-PASS result is a framework defect.
+  Detailed build.log/run.err review is required for causal classification of module-specific failures.
+
+RISKS AND LIMITATIONS
+--------------------------------------------------------------------------------
+1. The plan CSV is auto-discovered. Confirm that the reported plan path is the exact plan used for this batch.
+2. Logical repetition is reported as a heuristic and is not automatically classified as corruption.
+3. result.meta checks validate key=value structure, required status and rc keys, and cross-file status/return-code consistency.
+4. Framework-versus-CPAN causal classification requires inspection of logs for the non-PASS subset.
+
+FINAL ASSESSMENT
+--------------------------------------------------------------------------------
+Assessment: PASS
+
+Reason: the expected execution and deduplication paths passed. Recorded notes do not constitute structural failures.
+
+REPRODUCIBILITY
+--------------------------------------------------------------------------------
+Command used:
+  validate_smoker_batch.pl \
+    /home/ray/Smoker/development/test_results/20_tests_20260902_184920 \
+    /home/ray/Smoker/development/test_results/20_tests_20260902_184920/validation_evidence.txt
+
+CSV files were parsed with Perl's Text::CSV module.
+

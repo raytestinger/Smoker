@@ -1,0 +1,61 @@
+missing_prerequisite,historical_run_id,base,mode,module,version,dep_one,dep_one_version,dep_two,dep_two_version,historical_note
+Alien::Base::ModuleBuild,021768,perl:5.34,vary-one,Moot::Waste,v2.0.14,Alien::Moot,0.001,,,Dependency version Alien::Moot 0.001 requested; Missing prerequisite: Alien::Base::ModuleBuild
+Alien::Base::ModuleBuild,021771,perl:5.36,vary-one,Moot::Waste,v2.0.14,Alien::Moot,0.001,,,Dependency version Alien::Moot 0.001 requested; Missing prerequisite: Alien::Base::ModuleBuild
+Alien::Base::ModuleBuild,021774,perl:5.38,vary-one,Moot::Waste,v2.0.14,Alien::Moot,0.001,,,Dependency version Alien::Moot 0.001 requested; Missing prerequisite: Alien::Base::ModuleBuild
+Alien::Base::ModuleBuild,021777,perl:5.40,vary-one,Moot::Waste,v2.0.14,Alien::Moot,0.001,,,Dependency version Alien::Moot 0.001 requested; Missing prerequisite: Alien::Base::ModuleBuild
+Alien::Base::ModuleBuild,021780,perl:5.42,vary-one,Moot::Waste,v2.0.14,Alien::Moot,0.001,,,Dependency version Alien::Moot 0.001 requested; Missing prerequisite: Alien::Base::ModuleBuild
+Alien::Cowl,008896,perl:5.34,baseline,RDF::Cowl::Lib::Gen::Class::DataHasValue,v1.0.0,,,,,Missing prerequisite: Alien::Cowl
+Alien::Cowl,008910,perl:5.36,baseline,RDF::Cowl::Lib::Gen::Class::DataHasValue,v1.0.0,,,,,Missing prerequisite: Alien::Cowl
+Alien::Cowl,008924,perl:5.38,baseline,RDF::Cowl::Lib::Gen::Class::DataHasValue,v1.0.0,,,,,Missing prerequisite: Alien::Cowl
+Alien::Cowl,008938,perl:5.40,baseline,RDF::Cowl::Lib::Gen::Class::DataHasValue,v1.0.0,,,,,Missing prerequisite: Alien::Cowl
+Alien::Cowl,008952,perl:5.42,baseline,RDF::Cowl::Lib::Gen::Class::DataHasValue,v1.0.0,,,,,Missing prerequisite: Alien::Cowl
+Alien::wxWidgets,055855,perl:5.34,vary-one,Padre::Wx::Directory::TreeCtrl,1.02,Wx::Scintilla,0.01,,,Dependency version Wx::Scintilla 0.01 requested; Missing prerequisite: Alien::wxWidgets
+Alien::wxWidgets,055874,perl:5.36,vary-one,Padre::Wx::Directory::TreeCtrl,1.02,Wx::Scintilla,0.01,,,Dependency version Wx::Scintilla 0.01 requested; Missing prerequisite: Alien::wxWidgets
+Alien::wxWidgets,055893,perl:5.38,vary-one,Padre::Wx::Directory::TreeCtrl,1.02,Wx::Scintilla,0.01,,,Dependency version Wx::Scintilla 0.01 requested; Missing prerequisite: Alien::wxWidgets
+Alien::wxWidgets,055912,perl:5.40,vary-one,Padre::Wx::Directory::TreeCtrl,1.02,Wx::Scintilla,0.01,,,Dependency version Wx::Scintilla 0.01 requested; Missing prerequisite: Alien::wxWidgets
+Alien::wxWidgets,055931,perl:5.42,vary-one,Padre::Wx::Directory::TreeCtrl,1.02,Wx::Scintilla,0.01,,,Dependency version Wx::Scintilla 0.01 requested; Missing prerequisite: Alien::wxWidgets
+DBI,003177,perl:5.34,vary-one,Lingua::Thesaurus::RelType,0.13,DBD::SQLite,0.05,,,Dependency version DBD::SQLite 0.05 requested; Missing prerequisite: DBI
+DBI,003196,perl:5.36,vary-one,Lingua::Thesaurus::RelType,0.13,DBD::SQLite,0.05,,,Dependency version DBD::SQLite 0.05 requested; Missing prerequisite: DBI
+DBI,003215,perl:5.38,vary-one,Lingua::Thesaurus::RelType,0.13,DBD::SQLite,0.05,,,Dependency version DBD::SQLite 0.05 requested; Missing prerequisite: DBI
+DBI,003234,perl:5.40,vary-one,Lingua::Thesaurus::RelType,0.13,DBD::SQLite,0.05,,,Dependency version DBD::SQLite 0.05 requested; Missing prerequisite: DBI
+DBI,003253,perl:5.42,vary-one,Lingua::Thesaurus::RelType,0.13,DBD::SQLite,0.05,,,Dependency version DBD::SQLite 0.05 requested; Missing prerequisite: DBI
+ExtUtils::AutoInstall,041507,perl:5.34,vary-one,Data::Feed::Feed,0.00015,XML::Atom,0.01,,,Dependency version XML::Atom 0.01 requested; Missing prerequisite: ExtUtils::AutoInstall
+ExtUtils::AutoInstall,041526,perl:5.36,vary-one,Data::Feed::Feed,0.00015,XML::Atom,0.01,,,Dependency version XML::Atom 0.01 requested; Missing prerequisite: ExtUtils::AutoInstall
+ExtUtils::AutoInstall,041545,perl:5.38,vary-one,Data::Feed::Feed,0.00015,XML::Atom,0.01,,,Dependency version XML::Atom 0.01 requested; Missing prerequisite: ExtUtils::AutoInstall
+ExtUtils::AutoInstall,041564,perl:5.40,vary-one,Data::Feed::Feed,0.00015,XML::Atom,0.01,,,Dependency version XML::Atom 0.01 requested; Missing prerequisite: ExtUtils::AutoInstall
+ExtUtils::AutoInstall,041583,perl:5.42,vary-one,Data::Feed::Feed,0.00015,XML::Atom,0.01,,,Dependency version XML::Atom 0.01 requested; Missing prerequisite: ExtUtils::AutoInstall
+ExtUtils::BuildRC,001420,perl:5.34,vary-one,Paws::KinesisAnalytics::KinesisFirehoseInput,0.46,Module::Build::Tiny,0.006,,,Dependency version Module::Build::Tiny 0.006 requested; Missing prerequisite: ExtUtils::BuildRC
+ExtUtils::BuildRC,001439,perl:5.36,vary-one,Paws::KinesisAnalytics::KinesisFirehoseInput,0.46,Module::Build::Tiny,0.006,,,Dependency version Module::Build::Tiny 0.006 requested; Missing prerequisite: ExtUtils::BuildRC
+ExtUtils::BuildRC,001458,perl:5.38,vary-one,Paws::KinesisAnalytics::KinesisFirehoseInput,0.46,Module::Build::Tiny,0.006,,,Dependency version Module::Build::Tiny 0.006 requested; Missing prerequisite: ExtUtils::BuildRC
+ExtUtils::BuildRC,001477,perl:5.40,vary-one,Paws::KinesisAnalytics::KinesisFirehoseInput,0.46,Module::Build::Tiny,0.006,,,Dependency version Module::Build::Tiny 0.006 requested; Missing prerequisite: ExtUtils::BuildRC
+ExtUtils::BuildRC,001496,perl:5.42,vary-one,Paws::KinesisAnalytics::KinesisFirehoseInput,0.46,Module::Build::Tiny,0.006,,,Dependency version Module::Build::Tiny 0.006 requested; Missing prerequisite: ExtUtils::BuildRC
+ExtUtils::Depends,022840,perl:5.34,vary-one,Gapp::Moose::Meta::Attribute::Trait::GappMenu,0.60,Gtk2,0.24,,,Dependency version Gtk2 0.24 requested; Missing prerequisite: ExtUtils::Depends
+ExtUtils::Depends,022859,perl:5.36,vary-one,Gapp::Moose::Meta::Attribute::Trait::GappMenu,0.60,Gtk2,0.24,,,Dependency version Gtk2 0.24 requested; Missing prerequisite: ExtUtils::Depends
+ExtUtils::Depends,022878,perl:5.38,vary-one,Gapp::Moose::Meta::Attribute::Trait::GappMenu,0.60,Gtk2,0.24,,,Dependency version Gtk2 0.24 requested; Missing prerequisite: ExtUtils::Depends
+ExtUtils::Depends,022897,perl:5.40,vary-one,Gapp::Moose::Meta::Attribute::Trait::GappMenu,0.60,Gtk2,0.24,,,Dependency version Gtk2 0.24 requested; Missing prerequisite: ExtUtils::Depends
+ExtUtils::Depends,022916,perl:5.42,vary-one,Gapp::Moose::Meta::Attribute::Trait::GappMenu,0.60,Gtk2,0.24,,,Dependency version Gtk2 0.24 requested; Missing prerequisite: ExtUtils::Depends
+IO::File::Cached,009538,perl:5.34,vary-one,Test::AutoBuild::Stage::CleanBuildRoots,v1.2.4,Config::Record,v1.0.0,,,Dependency version Config::Record v1.0.0 requested; Missing prerequisite: IO::File::Cached
+IO::File::Cached,009557,perl:5.36,vary-one,Test::AutoBuild::Stage::CleanBuildRoots,v1.2.4,Config::Record,v1.0.0,,,Dependency version Config::Record v1.0.0 requested; Missing prerequisite: IO::File::Cached
+IO::File::Cached,009576,perl:5.38,vary-one,Test::AutoBuild::Stage::CleanBuildRoots,v1.2.4,Config::Record,v1.0.0,,,Dependency version Config::Record v1.0.0 requested; Missing prerequisite: IO::File::Cached
+IO::File::Cached,009595,perl:5.40,vary-one,Test::AutoBuild::Stage::CleanBuildRoots,v1.2.4,Config::Record,v1.0.0,,,Dependency version Config::Record v1.0.0 requested; Missing prerequisite: IO::File::Cached
+IO::File::Cached,009614,perl:5.42,vary-one,Test::AutoBuild::Stage::CleanBuildRoots,v1.2.4,Config::Record,v1.0.0,,,Dependency version Config::Record v1.0.0 requested; Missing prerequisite: IO::File::Cached
+MD5,012725,perl:5.34,vary-one,App::MonM::Channel::File,1.09,LWP,5,,,Dependency version LWP 5 requested; Missing prerequisite: MD5
+MD5,012744,perl:5.36,vary-one,App::MonM::Channel::File,1.09,LWP,5,,,Dependency version LWP 5 requested; Missing prerequisite: MD5
+MD5,012763,perl:5.38,vary-one,App::MonM::Channel::File,1.09,LWP,5,,,"Dependency version LWP 5 requested; MiniCPAN missing requested release; live CPAN retry returned rc=1; Missing prerequisite: MD5; unavailable exact release: requested LWP@5; CPAN index offered LWP 6.83, not requested version 5"
+MD5,012782,perl:5.40,vary-one,App::MonM::Channel::File,1.09,LWP,5,,,Dependency version LWP 5 requested; Missing prerequisite: MD5
+MD5,012801,perl:5.42,vary-one,App::MonM::Channel::File,1.09,LWP,5,,,Dependency version LWP 5 requested; Missing prerequisite: MD5
+Module::Build::IkiWiki,025341,perl:5.34,baseline,IkiWiki::Plugin::syntax,0.25,,,,,Missing prerequisite: Module::Build::IkiWiki
+Module::Build::IkiWiki,025360,perl:5.36,baseline,IkiWiki::Plugin::syntax,0.25,,,,,Missing prerequisite: Module::Build::IkiWiki
+Module::Build::IkiWiki,025379,perl:5.38,baseline,IkiWiki::Plugin::syntax,0.25,,,,,Missing prerequisite: Module::Build::IkiWiki
+Module::Build::IkiWiki,025398,perl:5.40,baseline,IkiWiki::Plugin::syntax,0.25,,,,,Missing prerequisite: Module::Build::IkiWiki
+Module::Build::IkiWiki,025417,perl:5.42,baseline,IkiWiki::Plugin::syntax,0.25,,,,,Missing prerequisite: Module::Build::IkiWiki
+URI::Escape,031813,perl:5.34,vary-one,App::Prove::Plugin::Test::OnlySomeP::Formatter,0.001005,Pod::Markdown,0.01,,,Dependency version Pod::Markdown 0.01 requested; Missing prerequisite: URI::Escape
+URI::Escape,031832,perl:5.36,vary-one,App::Prove::Plugin::Test::OnlySomeP::Formatter,0.001005,Pod::Markdown,0.01,,,Dependency version Pod::Markdown 0.01 requested; Missing prerequisite: URI::Escape
+URI::Escape,031851,perl:5.38,vary-one,App::Prove::Plugin::Test::OnlySomeP::Formatter,0.001005,Pod::Markdown,0.01,,,Dependency version Pod::Markdown 0.01 requested; Missing prerequisite: URI::Escape
+URI::Escape,031870,perl:5.40,vary-one,App::Prove::Plugin::Test::OnlySomeP::Formatter,0.001005,Pod::Markdown,0.01,,,Dependency version Pod::Markdown 0.01 requested; Missing prerequisite: URI::Escape
+URI::Escape,031889,perl:5.42,vary-one,App::Prove::Plugin::Test::OnlySomeP::Formatter,0.001005,Pod::Markdown,0.01,,,Dependency version Pod::Markdown 0.01 requested; Missing prerequisite: URI::Escape
+inc::Module::Install,018855,perl:5.34,vary-one,HTTP::MobileAttribute::Plugin::Locator::EZweb::GPS,0.23,Geo::Coordinates::Converter,0.01,,,Dependency version Geo::Coordinates::Converter 0.01 requested; Missing prerequisite: inc::Module::Install
+inc::Module::Install,018874,perl:5.36,vary-one,HTTP::MobileAttribute::Plugin::Locator::EZweb::GPS,0.23,Geo::Coordinates::Converter,0.01,,,Dependency version Geo::Coordinates::Converter 0.01 requested; Missing prerequisite: inc::Module::Install
+inc::Module::Install,018893,perl:5.38,vary-one,HTTP::MobileAttribute::Plugin::Locator::EZweb::GPS,0.23,Geo::Coordinates::Converter,0.01,,,Dependency version Geo::Coordinates::Converter 0.01 requested; Missing prerequisite: inc::Module::Install
+inc::Module::Install,018912,perl:5.40,vary-one,HTTP::MobileAttribute::Plugin::Locator::EZweb::GPS,0.23,Geo::Coordinates::Converter,0.01,,,Dependency version Geo::Coordinates::Converter 0.01 requested; Missing prerequisite: inc::Module::Install
+inc::Module::Install,018931,perl:5.42,vary-one,HTTP::MobileAttribute::Plugin::Locator::EZweb::GPS,0.23,Geo::Coordinates::Converter,0.01,,,Dependency version Geo::Coordinates::Converter 0.01 requested; Missing prerequisite: inc::Module::Install

@@ -1,0 +1,42 @@
+SMOKER 61,035-CASE SOURCE SNAPSHOT
+=================================
+
+Batch identifier:
+  61035_tests_20260812_020849
+
+Producer source baseline:
+  Git commit 8994a93
+
+Verification:
+  The development copies of Run_Smoker.pl, AGENTS.md, README.md, lib/,
+  bin/, t/, and config/log4perl.conf were content-identical to commit
+  8994a93 when this snapshot record was prepared on 2026-08-16.
+
+Run plan:
+  config/plans/61035_tests.csv
+  SHA-256: 7fceef605055e02e081055333782a6fa2e80f0473f2fcb9e421ab900f2902081
+
+Launcher:
+  scripts/run/61035_tests.sh
+  Default jobs: 6
+
+Frozen evidence location:
+  /QuickBackup/BigTest_20260816/test_results/61035_tests_20260812_020849
+
+Frozen evidence checksums:
+  summary.csv:
+    00bdf014714cafcc7c487c0179357ac547bb2e09b385c55e767093aad6f4884a
+  validation_evidence.txt:
+    f21bb0f06d92a525f7e24a743151b3d9757dd53eb2518a06d2b62e2251952e89
+  61035_tests_20260812_020849_review.tar.gz:
+    a1ceffe05c1d42eb0c027695517a31d9b6be375babfe64677d9cc7479e20f64a
+
+Validation result:
+  PASS
+  61,035 unique execution paths satisfied
+  61,035 complete required result sets
+  61,035 classified results
+  0 unsatisfied, incomplete, or unclassified
+
+This Git snapshot records the source baseline, exact input plan, and launcher.
+Runtime evidence remains outside Git in the frozen QuickBackup batch.

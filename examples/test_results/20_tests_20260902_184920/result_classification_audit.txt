@@ -1,0 +1,40 @@
+Smoker result classification audit
+
+Scope:
+  Checks whether each reported classification is supported by preserved execution evidence.
+  Includes execution-trail and artifact-consistency checks needed to trust the classification.
+  Does not assert whether a CPAN module should have passed or failed.
+
+Batch: /home/ray/Smoker/development/test_results/20_tests_20260902_184920
+Summary: /home/ray/Smoker/development/test_results/20_tests_20260902_184920/summary.csv
+Rows audited: 20
+Classified: 20
+Unclassified: 0
+SUPPORTED: 20
+INDETERMINATE: 0
+UNSUPPORTED: 0
+
+Classification evidence: PASS
+
+RESULT TABLE
+--------------------------------------------------------------------------------
+000004	PASS	0	SUPPORTED
+000001	PASS	0	SUPPORTED
+000002	PASS	0	SUPPORTED
+000006	PASS	0	SUPPORTED
+000005	PASS	0	SUPPORTED
+000003	PASS	0	SUPPORTED
+000008	PASS	0	SUPPORTED
+000009	PASS	0	SUPPORTED
+000011	PASS	0	SUPPORTED
+000015	PASS	0	SUPPORTED
+000016	PASS	0	SUPPORTED
+000017	PASS	0	SUPPORTED
+000010	PASS	0	SUPPORTED
+000019	PASS	0	SUPPORTED
+000020	PASS	0	SUPPORTED
+000007	PASS	0	SUPPORTED
+000018	PASS	0	SUPPORTED
+000013	PASS	0	SUPPORTED
+000012	PASS	0	SUPPORTED
+000014	PASS	0	SUPPORTED

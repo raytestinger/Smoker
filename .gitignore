@@ -1,0 +1,14 @@
+test_results/
+logs/
+minicpan/
+state/
+archive/
+save_chat/
+.cpanm/
+typescript*
+*.tar.gz
+__pycache__/
+*.tgz
+*.zip
+*.bak
+*~

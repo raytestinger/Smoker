@@ -1,0 +1,14 @@
+perl build_plan.pl \
+    --packages-index ~/Smoker/minicpan/modules/02packages.details.txt.gz \
+    --module-limit 25 \
+    --target-rows 50 \
+    --output test50.raw.csv \
+    --manifest test50.manifest.json \
+    --perl-versions 5.38 \
+    --max-deps 3 \
+    --max-versions 2 \
+    --selection-mode ordered \
+    --version-sampling spread \
+    --pair-mode cross \
+    --seed 20260724 \
+    --sleep-ms 0

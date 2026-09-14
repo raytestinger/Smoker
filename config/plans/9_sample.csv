@@ -1,0 +1,10 @@
+base,mode,module,version,dep_one,dep_one_version,dep_two,dep_two_version
+perl:5.38,baseline,Moose,2.4000,,,,
+perl:5.40,baseline,Moose,2.4000,,,,
+perl:5.42,baseline,Moose,2.4000,,,,
+perl:5.38,vary-one,Moose,2.4000,Try::Tiny,0.20,,
+perl:5.40,vary-one,Moose,2.4000,Try::Tiny,0.32,,
+perl:5.38,vary-one,Moose,2.4000,Class::Load,0.25,,
+perl:5.40,vary-one,Moose,2.4000,Package::Stash,0.40,,
+perl:5.38,vary-two,Moose,2.4000,Try::Tiny,0.20,Class::Load,0.25
+perl:5.40,vary-two,Moose,2.4000,Package::Stash,0.40,Module::Runtime,0.018

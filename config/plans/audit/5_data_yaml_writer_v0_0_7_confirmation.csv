@@ -1,0 +1,6 @@
+base,mode,module,version,dep_one,dep_one_version,dep_two,dep_two_version
+perl:5.34,vary-one,Contract::Declare,v1.0.0,Data::YAML::Writer,v0.0.7,,
+perl:5.36,vary-one,Contract::Declare,v1.0.0,Data::YAML::Writer,v0.0.7,,
+perl:5.38,vary-one,Contract::Declare,v1.0.0,Data::YAML::Writer,v0.0.7,,
+perl:5.40,vary-one,Contract::Declare,v1.0.0,Data::YAML::Writer,v0.0.7,,
+perl:5.42,vary-one,Contract::Declare,v1.0.0,Data::YAML::Writer,v0.0.7,,
